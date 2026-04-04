@@ -267,7 +267,32 @@
 }
 
 .hashtags .tag-chip {
+  appearance: none;
+  font: inherit;
+}
+
+.hashtags .tag-chip {
   display: inline-block;
+  padding: 0.18rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  background: #f8fafc;
+  color: #374151;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.tag-chip:hover {
+  background: #f0fdf4;
+  border-color: #86efac;
+}
+
+.tag-chip.is-active {
+  background: #159957;
+  border-color: #159957;
+  color: #fff;
 }
 
 
