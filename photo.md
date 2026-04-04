@@ -121,10 +121,3 @@ You can later add image files under <code>assets/images/photos/</code> and place
   <h4>TGTC Summer Seminar 2023 in Osaka</h4>
   <p class="hashtags">#Eunjeong #Junho</p>
 </div>
-
-## How to add photos later
-
-1. Upload image files to <code>assets/images/photos/</code>.  
-2. Open <code>photo.md</code>.  
-3. Remove one of the commented example blocks and change the filename.  
-4. Commit the change on GitHub.
