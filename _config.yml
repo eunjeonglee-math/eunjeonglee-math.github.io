@@ -1,0 +1,10 @@
+title: Eunjeong Lee
+description: Academic homepage
+url: ""
+baseurl: ""
+theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-seo-tag

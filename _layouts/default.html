@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <h2 class="project-tagline">Equivariant algebraic topology, geometry, and combinatorics</h2>
+      {% include nav.html %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {% if page.title and page.title != 'Home' %}
+      <h1>{{ page.title }}</h1>
+      {% endif %}
+      {{ content }}
+
+      <footer class="site-footer">
+        <p><strong>Eunjeong Lee</strong></p>
+        <p>This website was rebuilt with help from ChatGPT and adapted for GitHub Pages.</p>
+      </footer>
+    </main>
+  </body>
+</html>
