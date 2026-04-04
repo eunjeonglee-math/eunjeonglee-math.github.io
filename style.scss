@@ -1,0 +1,211 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+  padding: 2.5rem 1rem 2rem;
+}
+
+.page-header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-nav {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem;
+}
+
+.site-nav a {
+  display: inline-block;
+  padding: 0.45rem 0.85rem;
+  border: 1px solid rgba(255,255,255,0.45);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.98rem;
+}
+
+.site-nav a:hover {
+  background: rgba(255,255,255,0.18);
+}
+
+.main-content {
+  max-width: 980px;
+}
+
+.main-content h1 {
+  margin-top: 0.2rem;
+}
+
+.main-content h2,
+.main-content h3 {
+  margin-top: 2rem;
+}
+
+.main-content ul {
+  margin-bottom: 1rem;
+}
+
+.profile-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #fafafa;
+  margin: 1rem 0 1.5rem;
+}
+
+.profile-card .meta {
+  margin: 0;
+}
+
+.note-box {
+  padding: 1rem 1.1rem;
+  border-left: 4px solid #159957;
+  background: #f5fbf7;
+  border-radius: 8px;
+  margin: 1rem 0 1.5rem;
+}
+
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+}
+
+.site-footer p {
+  margin: 0.3rem 0;
+}
+
+.news-card {
+  margin: 1rem 0 1.25rem;
+  padding: 1.15rem 1.2rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.04);
+}
+
+.news-card h4 {
+  margin: 0.2rem 0 0.6rem;
+}
+
+.news-card p {
+  margin: 0.45rem 0;
+}
+
+.news-meta {
+  font-size: 0.92rem;
+  color: #6b7280;
+}
+
+.hashtags {
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.caption-list {
+  margin-top: 0.75rem;
+  color: #4b5563;
+}
+
+.photo-grid {
+  display: grid;
+  gap: 0.85rem;
+  margin-top: 1rem;
+}
+
+.photo-grid.one {
+  grid-template-columns: 1fr;
+}
+
+.photo-grid.two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.photo-grid img {
+  width: 100%;
+  border-radius: 14px;
+  display: block;
+  border: 1px solid #e5e7eb;
+}
+
+@media (max-width: 700px) {
+  .photo-grid.two {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.photo-frame {
+  margin: 0;
+}
+
+.photo-frame img {
+  background: #f8fafc;
+}
+
+.section-toggle {
+  margin: 1rem 0 1.25rem;
+}
+
+.main-content details {
+  margin: 1rem 0 1.25rem;
+  padding: 0.1rem 0 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.main-content summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.95rem 1.15rem;
+  font-size: 1.08rem;
+}
+
+.main-content summary::-webkit-details-marker {
+  display: none;
+}
+
+.main-content summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.55rem;
+  color: #159957;
+  transition: transform 0.18s ease;
+}
+
+.main-content details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.main-content details > :not(summary) {
+  margin-left: 1.15rem;
+  margin-right: 1.15rem;
+}
+
+.main-content details > ul,
+.main-content details > ol,
+.main-content details > p,
+.main-content details > .news-card,
+.main-content details > .note-box,
+.main-content details > h2,
+.main-content details > h3,
+.main-content details > h4 {
+  margin-top: 0.9rem;
+}
+
+.main-content details > :last-child {
+  margin-bottom: 1.15rem;
+}
