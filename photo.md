@@ -160,9 +160,7 @@ The original photos from the public Google Sites page are now embedded below so 
   <h4>TGTC Summer Seminar 2023 in Osaka</h4>
   <p class="hashtags">#Eunjeong #Junho</p>
   <div class="photo-grid one">
-    <figure class="photo-frame">
-      <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STuW72zxMCQyYciA73Vj5Clq3JGcv5VcUAaKzVLoGsssJR7de4jcDKYsZCqYj0b1qP-bOLug7c-MLsgMokLuTQ42ZyibJ26_nsAcP-LgymGZ1rS5N0a5dk2QKfNFm3XxJyfDVlJbjTAfSuAFUxh8wb-oOEzCn9vknUJ62CFZ50UCPCesOIprHjXd3XO8mrsfji6YwgSUizc2i726hyJc45BprewTzpermnj%3Dw1280" alt="TGTC Summer Seminar 2023 in Osaka">
-    </figure>
+    <img src="{{ '/assets/images/photos/2023_TGTC.jpg' }}" alt="Description">
   </div>
 </div>
 
