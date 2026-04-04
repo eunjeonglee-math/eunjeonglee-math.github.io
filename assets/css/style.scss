@@ -145,3 +145,127 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+.photo-frame {
+  margin: 0;
+}
+
+.photo-frame img {
+  background: #f8fafc;
+}
+
+.section-toggle {
+  margin: 1rem 0 1.25rem;
+}
+
+.main-content details {
+  margin: 1rem 0 1.25rem;
+  padding: 0.1rem 0 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.main-content summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 0.95rem 1.15rem;
+  font-size: 1.08rem;
+}
+
+.main-content summary::-webkit-details-marker {
+  display: none;
+}
+
+.main-content summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.55rem;
+  color: #159957;
+  transition: transform 0.18s ease;
+}
+
+.main-content details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.main-content details > :not(summary) {
+  margin-left: 1.15rem;
+  margin-right: 1.15rem;
+}
+
+.main-content details > ul,
+.main-content details > ol,
+.main-content details > p,
+.main-content details > .news-card,
+.main-content details > .note-box,
+.main-content details > h2,
+.main-content details > h3,
+.main-content details > h4 {
+  margin-top: 0.9rem;
+}
+
+.main-content details > :last-child {
+  margin-bottom: 1.15rem;
+}
+
+
+.tag-filter-panel {
+  margin: 1rem 0 1.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.tag-filter-title {
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.tag-filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.tag-filter-button {
+  appearance: none;
+  border: 1px solid #cbd5e1;
+  background: #f8fafc;
+  border-radius: 999px;
+  padding: 0.42rem 0.8rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.tag-filter-button:hover {
+  background: #f0fdf4;
+  border-color: #86efac;
+}
+
+.tag-filter-button.is-active {
+  background: #159957;
+  border-color: #159957;
+  color: #fff;
+}
+
+.hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.hashtags::before {
+  content: "Tags:";
+  font-weight: 600;
+  color: #374151;
+  margin-right: 0.15rem;
+}
+
+.hashtags .tag-chip {
+  display: inline-block;
+}
