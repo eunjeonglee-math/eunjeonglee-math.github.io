@@ -1,0 +1,203 @@
+// Edit this file to update photos.html. Keep events in the order you want them displayed.
+// Add image files under assets/images, then list their paths and actual dimensions here.
+window.PHOTO_DATA = {
+  lastUpdated: "September 17, 2026",
+
+  countries: {
+    "south-korea": "South Korea",
+    japan: "Japan",
+  },
+
+  people: {
+    "eunjeong-lee": "Eunjeong Lee",
+    "inseo-kim": "Inseo Kim",
+    "jeongsoo-kim": "Jeongsoo Kim",
+    "jaeha-kyung": "Jaeha Kyung",
+    "junho-jeong": "Junho Jeong",
+    "hyewon-song": "Hyewon Song",
+  },
+
+  events: [
+    {
+      year: 2026,
+      country: "south-korea",
+      people: ["eunjeong-lee", "inseo-kim", "jeongsoo-kim", "jaeha-kyung"],
+      title: "The 8th Korea Toric Topology Workshop",
+      url: "https://sites.google.com/view/8thkttw",
+      details: "February 23–27 · KIAS, Seoul",
+      images: [
+        { src: "assets/images/kttw-2026.jpg", alt: "Group photograph at the 8th Korea Toric Topology Workshop", width: 1280, height: 399 },
+      ],
+    },
+    {
+      year: 2026,
+      country: "south-korea",
+      people: ["inseo-kim", "jeongsoo-kim", "jaeha-kyung"],
+      title: "2025 Academic Year Graduation Ceremony",
+      carouselLabel: "Two photos from the 2025 Academic Year Graduation Ceremony at Chungbuk National University",
+      details: "February 23, 2026 · Chungbuk National University",
+      images: [
+        { src: "assets/images/graduation-2026-01.jpg", alt: "Photo 1 from the 2025 Academic Year Graduation Ceremony at Chungbuk National University", width: 1536, height: 2048 },
+        { src: "assets/images/graduation-2026-02.jpg", alt: "Photo 2 from the 2025 Academic Year Graduation Ceremony at Chungbuk National University", width: 1536, height: 2048 },
+      ],
+    },
+    {
+      year: 2025,
+      country: "south-korea",
+      people: ["eunjeong-lee", "inseo-kim", "jeongsoo-kim", "jaeha-kyung"],
+      title: "2025 KMS Annual Meeting",
+      carouselLabel: "Seven photos from the 2025 KMS Annual Meeting",
+      url: "https://www.kms.or.kr/conference/meeting/index.html?period=90",
+      details: "October 22–24 · ST Convention Center, Seoul · Inseo and Jeongsoo presented posters; Inseo received the Student Poster Award.",
+      images: [
+        { src: "assets/images/kms-annual-2025-01.jpg", alt: "Photo 1 from the 2025 KMS Annual Meeting", width: 1600, height: 739 },
+        { src: "assets/images/kms-annual-2025-02.jpg", alt: "Photo 2 from the 2025 KMS Annual Meeting", width: 1600, height: 739 },
+        { src: "assets/images/kms-annual-2025-03.jpg", alt: "Photo 3 from the 2025 KMS Annual Meeting", width: 1600, height: 1066 },
+        { src: "assets/images/kms-annual-2025-04.jpg", alt: "Photo 4 from the 2025 KMS Annual Meeting", width: 1600, height: 1066 },
+        { src: "assets/images/kms-annual-2025-05.jpg", alt: "Photo 5 from the 2025 KMS Annual Meeting", width: 1536, height: 2048 },
+        { src: "assets/images/kms-annual-2025-06.jpg", alt: "Photo 6 from the 2025 KMS Annual Meeting", width: 946, height: 2048 },
+        { src: "assets/images/kms-annual-2025-07.jpg", alt: "Photo 7 from the 2025 KMS Annual Meeting", width: 946, height: 2048 },
+      ],
+    },
+    {
+      year: 2025,
+      country: "south-korea",
+      people: ["eunjeong-lee", "inseo-kim", "jeongsoo-kim", "jaeha-kyung"],
+      title: "2025 Combinatorics Workshop",
+      details: "August 18–20 · IBS, Daejeon · Inseo gave a talk on toric Schubert varieties.",
+      images: [
+        { src: "assets/images/combinatorics-2025.jpg", alt: "Group photograph at the 2025 Combinatorics Workshop", width: 1280, height: 748 },
+      ],
+    },
+    {
+      year: 2025,
+      country: "south-korea",
+      people: ["eunjeong-lee", "inseo-kim", "jeongsoo-kim", "jaeha-kyung"],
+      title: "Workshop on toric geometry in Jinju",
+      carouselLabel: "Five photos from the Workshop on toric geometry in Jinju",
+      url: "https://sites.google.com/view/wtgj2025",
+      details: "July 7–9 · KNU, Jinju · Talks by Inseo, Jeongsoo, and Eunjeong, followed by a visit to Jinjuseong Fortress.",
+      images: [
+        { src: "assets/images/toric-geometry-jinju-2025-01.jpg", alt: "Group photo at the Workshop on toric geometry in Jinju", width: 1600, height: 1200 },
+        { src: "assets/images/toric-geometry-jinju-2025-02.jpg", alt: "Visit to Jinjuseong Fortress during the Workshop on toric geometry in Jinju", width: 1600, height: 901 },
+        { src: "assets/images/toric-geometry-jinju-2025-03.jpg", alt: "Jeongsoo Kim at the Workshop on toric geometry in Jinju", width: 1600, height: 1200 },
+        { src: "assets/images/toric-geometry-jinju-2025-04.jpg", alt: "Inseo Kim at the Workshop on toric geometry in Jinju", width: 1600, height: 1200 },
+        { src: "assets/images/toric-geometry-jinju-2025-05.jpg", alt: "Eunjeong Lee at the Workshop on toric geometry in Jinju", width: 1600, height: 1200 },
+      ],
+    },
+    {
+      year: 2025,
+      country: "south-korea",
+      people: ["eunjeong-lee", "junho-jeong", "inseo-kim", "jeongsoo-kim"],
+      title: "2024 Academic Year Graduation Ceremony",
+      details: "February 20, 2025 · Chungbuk National University",
+      images: [
+        { src: "assets/images/graduation-2025.jpg", alt: "Eunjeong Lee with students at the 2024 Academic Year Graduation Ceremony at Chungbuk National University", width: 686, height: 915 },
+      ],
+    },
+    {
+      year: 2025,
+      country: "south-korea",
+      people: ["eunjeong-lee", "inseo-kim", "jeongsoo-kim"],
+      title: "The 7th Korea Toric Topology Workshop",
+      url: "https://sites.google.com/view/7thkttw/",
+      details: "February 17–19 · KAIST, Daejeon",
+      images: [
+        { src: "assets/images/kttw-2025.png", alt: "Group photograph at the 7th Korea Toric Topology Workshop", width: 1280, height: 569 },
+      ],
+    },
+    {
+      year: 2025,
+      country: "south-korea",
+      people: ["eunjeong-lee", "inseo-kim", "jeongsoo-kim", "jaeha-kyung"],
+      title: "Combinatorics on Flag Varieties and Related Topics",
+      url: "https://sites.google.com/view/flagvarieties2025",
+      details: "February 10–14 · Ajou University, Suwon",
+      images: [
+        { src: "assets/images/flag-varieties-2025.png", alt: "Participants at Combinatorics on Flag Varieties and Related Topics 2025", width: 1243, height: 372 },
+      ],
+    },
+    {
+      year: 2024,
+      country: "south-korea",
+      people: ["eunjeong-lee", "junho-jeong", "inseo-kim", "jeongsoo-kim"],
+      title: "KWMS Leaders Forum 2024",
+      carouselLabel: "Four photos from KWMS Leaders Forum 2024",
+      url: "https://kwms.or.kr/index.php?mp=lf_2024_home",
+      details: "October 11 · Sungshin Women’s University, Seoul · Jeongsoo gave a talk; MaCU received an Excellence Award.",
+      images: [
+        { src: "assets/images/kwms-leaders-forum-2024-01.jpg", alt: "Photo 1 from KWMS Leaders Forum 2024", width: 1600, height: 1200 },
+        { src: "assets/images/kwms-leaders-forum-2024-02.jpg", alt: "Photo 2 from KWMS Leaders Forum 2024", width: 1600, height: 1200 },
+        { src: "assets/images/kwms-leaders-forum-2024-03.jpg", alt: "Photo 3 from KWMS Leaders Forum 2024", width: 1600, height: 1200 },
+        { src: "assets/images/kwms-leaders-forum-2024-04.jpg", alt: "Photo 4 from KWMS Leaders Forum 2024", width: 1600, height: 1076 },
+      ],
+    },
+    {
+      year: 2024,
+      country: "south-korea",
+      people: ["eunjeong-lee", "junho-jeong", "inseo-kim", "jeongsoo-kim", "jaeha-kyung"],
+      title: "2024 Algebraic and analytic structures on manifolds and their applications",
+      carouselLabel: "Two photos from the 2024 Algebraic and analytic structures on manifolds and their applications workshop",
+      url: "https://sites.google.com/view/2024-cbnu-math-workshop/home?authuser=0",
+      details: "September 26–28 · Gyeongju · Inseo gave a talk on toric Schubert varieties.",
+      images: [
+        { src: "assets/images/algebraic-analytic-gyeongju-2024-01.jpg", alt: "Photo 1 from the 2024 Gyeongju workshop", width: 1600, height: 736 },
+        { src: "assets/images/algebraic-analytic-gyeongju-2024-02.jpg", alt: "Photo 2 from the 2024 Gyeongju workshop", width: 1600, height: 739 },
+      ],
+    },
+    {
+      year: 2024,
+      country: "japan",
+      people: ["eunjeong-lee", "junho-jeong", "inseo-kim", "jeongsoo-kim"],
+      title: "Osaka Metropolitan University · June 2024",
+      carouselLabel: "Three photos from Osaka Metropolitan University in June 2024",
+      details: "June 26–29 · Osaka · Talks by Eunjeong and Junho.",
+      images: [
+        { src: "assets/images/osaka-2024-01.jpg", alt: "Photo 1 from Osaka Metropolitan University in June 2024", width: 640, height: 480 },
+        { src: "assets/images/osaka-2024-02.jpg", alt: "Photo 2 from Osaka Metropolitan University in June 2024", width: 1600, height: 739 },
+        { src: "assets/images/osaka-2024-03.jpg", alt: "Photo 3 from Osaka Metropolitan University in June 2024", width: 1600, height: 1200 },
+      ],
+    },
+    {
+      year: 2024,
+      country: "south-korea",
+      people: ["eunjeong-lee", "junho-jeong"],
+      title: "Workshop on Torus Actions in Symplectic and Algebraic Geometry",
+      url: "https://ccg.ibs.re.kr/event/2024-01-15-19/",
+      details: "January 15–19 · IBS CCG, Daejeon",
+      images: [
+        { src: "assets/images/torus-actions-2024.jpg", alt: "Participants at the 2024 Workshop on Torus Actions in Symplectic and Algebraic Geometry", width: 1280, height: 524 },
+      ],
+    },
+    {
+      year: 2023,
+      country: "south-korea",
+      people: ["hyewon-song", "jeongsoo-kim", "eunjeong-lee", "junho-jeong"],
+      title: "CBNU Poster Contest",
+      details: "November 22–23 · Chungbuk National University",
+      images: [
+        { src: "assets/images/poster-contest-2023.jpg", alt: "Participants at the 2023 CBNU Poster Contest", width: 1280, height: 719 },
+      ],
+    },
+    {
+      year: 2023,
+      country: "south-korea",
+      people: ["eunjeong-lee", "junho-jeong"],
+      title: "KMS Special Conference with 2022 Fields Medalists",
+      details: "October 26–28 · Seoul National University",
+      images: [
+        { src: "assets/images/fields-medalists-2023.jpg", alt: "Group photograph at the KMS Special Conference with 2022 Fields Medalists", width: 1280, height: 580 },
+      ],
+    },
+    {
+      year: 2023,
+      country: "japan",
+      people: ["eunjeong-lee", "junho-jeong"],
+      title: "TGTC Summer Seminar in Osaka",
+      details: "August 7–10 · Osaka Metropolitan University",
+      images: [
+        { src: "assets/images/tgtc-osaka-2023.jpg", alt: "Participants at the TGTC Summer Seminar 2023 in Osaka", width: 1199, height: 538 },
+      ],
+    },
+  ],
+};
