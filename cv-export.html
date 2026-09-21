@@ -8,7 +8,7 @@
     <title>CV Export · Eunjeong Lee</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23235c93'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='white' stroke-width='5'/%3E%3Ccircle cx='44' cy='20' r='5' fill='%239bc9e7'/%3E%3C/svg%3E">
     <link rel="stylesheet" href="assets/css/styles.css?v=20260917-5">
-    <link rel="stylesheet" href="assets/css/cv.css">
+    <link rel="stylesheet" href="assets/css/cv.css?v=20260921-1">
     <script defer src="assets/data/publications.js?v=20260921-4"></script>
     <script defer src="assets/js/publications-render.js?v=20260921-2"></script>
     <script defer src="assets/js/site.js?v=20260921-2"></script>
@@ -53,13 +53,7 @@
 
             <section class="cv-section" id="research-interests" aria-labelledby="cv-research-title">
               <h3 id="cv-research-title">Research Interests</h3>
-              <ul class="cv-compact-list">
-                <li>Equivariant algebraic topology</li>
-                <li>Combinatorics</li>
-                <li>Algebraic geometry</li>
-                <li>Symplectic geometry</li>
-                <li>Geometric representation theory</li>
-              </ul>
+              <p class="cv-interest-line">Equivariant algebraic topology and related topics</p>
             </section>
 
             <section class="cv-section" id="appointments" aria-labelledby="cv-appointments-title">
@@ -93,6 +87,13 @@
               </ul>
             </section>
 
+            <section class="cv-section cv-publications" id="publications" aria-labelledby="cv-publications-title">
+              <h3 id="cv-publications-title">Publications &amp; Manuscripts</h3>
+              <p class="data-status" data-publications-status role="status" hidden>Loading publications…</p>
+              <div data-cv-publications></div>
+              <noscript><p class="data-status is-error">JavaScript is required to display the publication list.</p></noscript>
+            </section>
+
             <section class="cv-section" id="professional-service" aria-labelledby="cv-service-title">
               <h3 id="cv-service-title">Professional Service</h3>
               <ul class="cv-service-list">
@@ -103,13 +104,6 @@
                 <li><strong>Executive Committee</strong> · Korean Women in Mathematical Sciences, 2023–2024</li>
                 <li><strong>Journal referee</strong> · <em>Advances in Mathematics</em>, <em>Algebraic Combinatorics</em>, <em>Algebras and Representation Theory</em>, <em>Bulletin of the Korean Mathematical Society</em>, <em>Communications of the Korean Mathematical Society</em>, <em>Discrete &amp; Computational Geometry</em>, <em>International Journal of Mathematics</em>, <em>Journal of Algebraic Combinatorics</em>, <em>Journal of the Korean Mathematical Society</em>, <em>La Matematica</em>, <em>Mathematische Nachrichten</em>, <em>Proceedings of the American Mathematical Society</em>, <em>Transactions of the American Mathematical Society</em>, and <em>Transformation Groups</em></li>
               </ul>
-            </section>
-
-            <section class="cv-section cv-publications" id="publications" aria-labelledby="cv-publications-title">
-              <h3 id="cv-publications-title">Publications &amp; Manuscripts</h3>
-              <p class="data-status" data-publications-status role="status" hidden>Loading publications…</p>
-              <div data-cv-publications></div>
-              <noscript><p class="data-status is-error">JavaScript is required to display the publication list.</p></noscript>
             </section>
 
             <p class="cv-generated">Generated from website data · Last content update: <span data-publication-updated>September 17, 2026</span></p>
@@ -123,8 +117,8 @@
             <a href="#appointments">Academic appointments</a>
             <a href="#education">Education</a>
             <a href="#awards-grants">Awards &amp; grants</a>
-            <a href="#professional-service">Professional service</a>
             <a href="#publications">Publications</a>
+            <a href="#professional-service">Professional service</a>
           </nav>
         </aside>
       </div>
