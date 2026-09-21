@@ -4,7 +4,7 @@
 }
 
 .cv-page-hero h1 {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2.25rem, 4.4vw, 3.6rem);
 }
 
 .cv-layout {
@@ -121,6 +121,10 @@
 .cv-header + .cv-section h3 {
   padding-top: 0;
   border-top: 0;
+}
+
+.cv-interest-line {
+  margin: 0;
 }
 
 .cv-subsection + .cv-subsection {
