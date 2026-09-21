@@ -622,11 +622,6 @@ window.ACTIVITY_DATA = {
       label: "2026",
       items: [
         {
-          title: "TGTC 2026 in Himeji",
-          url: "https://sites.google.com/view/tgtc2026",
-          details: " · with Mikiya Masuda · July 1–3."
-        },
-        {
           parts: [
             {
               text: "AJOU–CBNU–PNU Toric Topology Seminar",
@@ -635,7 +630,7 @@ window.ACTIVITY_DATA = {
             " · with ",
             {
               text: "Suyoung Choi",
-              url: "https://acmi.ajou.ac.kr/~schoi/"
+              url: "https://schoimath.github.io/"
             },
             " and ",
             {
@@ -644,6 +639,35 @@ window.ACTIVITY_DATA = {
             },
             " · March 2026–present."
           ]
+        },
+        {
+          parts: [
+            {
+              text: "TGTC 2026 in Cheongju",
+              url: "https://sites.google.com/view/tgtc2026cbnu/home"
+            },
+            " · with ",
+            {
+              text: "Suyoung Choi",
+              url: "https://schoimath.github.io/"
+            },
+            ", ",
+            {
+              text: "Seonjeong Park",
+              url: "https://sites.google.com/site/seonjeong1124/"
+            },
+            " and ",
+            {
+              text: "Jongbaek Song",
+              url: "https://sites.google.com/site/jongbaeksong/"
+            },
+            " · September 3–4."
+          ]
+        },
+        {
+          title: "TGTC 2026 in Himeji",
+          url: "https://sites.google.com/view/tgtc2026",
+          details: " · with Mikiya Masuda · July 1–3."
         },
         {
           parts: [
@@ -659,7 +683,7 @@ window.ACTIVITY_DATA = {
             ", ",
             {
               text: "Suyoung Choi",
-              url: "https://acmi.ajou.ac.kr/~schoi/"
+              url: "https://schoimath.github.io/"
             },
             ", Taekgyu Hwang, Hyeontae Jang, ",
             {
@@ -694,7 +718,7 @@ window.ACTIVITY_DATA = {
             " · with ",
             {
               text: "Suyoung Choi",
-              url: "https://acmi.ajou.ac.kr/~schoi/"
+              url: "https://schoimath.github.io/"
             },
             " · 2025."
           ]
@@ -708,7 +732,7 @@ window.ACTIVITY_DATA = {
             " · with ",
             {
               text: "Suyoung Choi",
-              url: "https://acmi.ajou.ac.kr/~schoi/"
+              url: "https://schoimath.github.io/"
             },
             ", Taekgyu Hwang, and ",
             {
@@ -727,7 +751,7 @@ window.ACTIVITY_DATA = {
             " · with ",
             {
               text: "Suyoung Choi",
-              url: "https://acmi.ajou.ac.kr/~schoi/"
+              url: "https://schoimath.github.io/"
             },
             ", Taekgyu Hwang, ",
             {
@@ -904,7 +928,7 @@ window.ACTIVITY_DATA = {
             ", ",
             {
               text: "Suyoung Choi",
-              url: "https://acmi.ajou.ac.kr/~schoi/"
+              url: "https://schoimath.github.io/"
             },
             ", Taekgyu Hwang, ",
             {

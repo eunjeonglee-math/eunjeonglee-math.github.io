@@ -9,15 +9,43 @@ window.PHOTO_DATA = {
   },
 
   people: {
+    "seonghyeon-hwang": "Seonghyeon Hwang",
     "eunjeong-lee": "Eunjeong Lee",
     "inseo-kim": "Inseo Kim",
     "jeongsoo-kim": "Jeongsoo Kim",
     "jaeha-kyung": "Jaeha Kyung",
     "junho-jeong": "Junho Jeong",
     "hyewon-song": "Hyewon Song",
+    "jeongyun-yang": "Jeongyun Yang",
   },
 
   events: [
+    {
+      year: 2026,
+      country: "south-korea",
+      people: ["eunjeong-lee", "inseo-kim", "jaeha-kyung", "seonghyeon-hwang", "jeongyun-yang"],
+      title: "Topology and Geometry of Torus actions and related Combinatorics(TGTC) 2026 in Cheongju",
+      url: "https://sites.google.com/view/tgtc2026cbnu/home",
+      details: "September 3–4 · Chungbuk National University, Cheongju",
+      images: [
+        { src: "assets/images/2026-tgtc-cbnu-1.jpg", alt: "Group photo at TGTC 2026 in Cheongju", width: 1280, height: 399 },
+        { src: "assets/images/2026-tgtc-cbnu-2.jpg", alt: "Group photo at TGTC 2026 in Cheongju", width: 1280, height: 399 },         
+      ],
+    },
+    {
+      year: 2026,
+      country: "japan",
+      people: ["eunjeong-lee", "inseo-kim", "jaeha-kyung", "seonghyeon-hwang"],
+      title: "Topology and Geometry of Torus actions and related Combinatorics(TGTC) 2026 in Himeji",
+      url: "https://sites.google.com/view/tgtc2026/home",
+      details: "July 1–3 · Egret Himeji, Himeji",
+      images: [
+        { src: "assets/images/2026-tgtc-himeji-01.jpg", alt: "Group photo at TGTC 2026 in Himeji", width: 1280, height: 399 },
+        { src: "assets/images/2026-tgtc-himeji-02.jpg", alt: "Group photo at TGTC 2026 in Himeji", width: 1280, height: 399 },        
+        { src: "assets/images/2026-tgtc-himeji-03.jpg", alt: "Group photo at TGTC 2026 in Himeji", width: 1280, height: 399 },
+        { src: "assets/images/2026-tgtc-himeji-04.jpg", alt: "Group photo at TGTC 2026 in Himeji", width: 1280, height: 399 },                
+      ],
+    },
     {
       year: 2026,
       country: "south-korea",
@@ -26,7 +54,7 @@ window.PHOTO_DATA = {
       url: "https://sites.google.com/view/8thkttw",
       details: "February 23–27 · KIAS, Seoul",
       images: [
-        { src: "assets/images/kttw-2026.jpg", alt: "Group photograph at the 8th Korea Toric Topology Workshop", width: 1280, height: 399 },
+        { src: "assets/images/kttw-2026.jpg", alt: "Group photo at the 8th Korea Toric Topology Workshop", width: 1280, height: 399 },
       ],
     },
     {
