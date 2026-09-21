@@ -28,8 +28,8 @@ window.PHOTO_DATA = {
       url: "https://sites.google.com/view/tgtc2026cbnu/home",
       details: "September 3–4 · Chungbuk National University, Cheongju",
       images: [
-        { src: "assets/images/2026-tgtc-cbnu-1.jpg", alt: "Group photo at TGTC 2026 in Cheongju", width: 1280, height: 399 },
-        { src: "assets/images/2026-tgtc-cbnu-2.jpg", alt: "Group photo at TGTC 2026 in Cheongju", width: 1280, height: 399 },         
+        { src: "assets/images/2026-tgtc-CBNU-1.jpg", alt: "Group photo at TGTC 2026 in Cheongju", width: 1280, height: 399 },
+        { src: "assets/images/2026-tgtc-CBNU-2.jpg", alt: "Group photo at TGTC 2026 in Cheongju", width: 1280, height: 399 },         
       ],
     },
     {
