@@ -1192,43 +1192,36 @@ window.ACTIVITY_DATA = {
     ibs: [
       {
         title: "Intensive Lecture Series: Overview of Springer Theory",
-        url: "https://cgp.ibs.re.kr/activities/conferences/319",
         lead: "Dongkwan Kim, ",
         details: " · June 8–12, 2020."
       },
       {
         title: "Intensive Lecture Series: Cluster Algebras and Newton–Okounkov Bodies",
-        url: "https://cgp.ibs.re.kr/activities/seminars/intensive_lecture_series",
         lead: "Naoki Fujita, ",
         details: " · August 26–28, 2019."
       },
       {
         title: "On Span of Generalized Dold Manifolds",
-        url: "https://cgp.ibs.re.kr/activities/seminars/seminar",
         lead: "Soumen Sarkar, ",
         details: " · July 9, 2019."
       },
       {
         title: "Intensive Lecture Series: Topology of Hessenberg Varieties and Related Topics",
-        url: "https://cgp.ibs.re.kr/activities/seminars/intensive_lecture_series",
         lead: "Mikiya Masuda, ",
         details: " · March 5–9, 2019."
       },
       {
         title: "Quasimaps to Relative GIT Quotients and Applications",
-        url: "https://cgp.ibs.re.kr/activities/seminars/symplectic%20monday",
         lead: "Jeongseok Oh, ",
         details: " · February 25, 2019."
       },
       {
         title: "On the Topology of Real Toric Manifolds",
-        url: "https://cgp.ibs.re.kr/activities/seminars/seminar",
         lead: "Suyoung Choi, ",
         details: " · August 30, 2018."
       },
       {
         title: "On the Integral Cohomology of Certain Singular Spaces",
-        url: "https://cgp.ibs.re.kr/activities/seminars/seminar",
         lead: "Jongbaek Song, ",
         details: " · August 10, 2018."
       }
