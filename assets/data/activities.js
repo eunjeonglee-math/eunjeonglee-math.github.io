@@ -1071,16 +1071,16 @@ window.ACTIVITY_DATA = {
         label: "2026",
         items: [
           {
-            title: "Wave turbulence and some applications",
-            url: "https://math.chungbuk.ac.kr/?mod=view&pg_idx=148&pidx=1799&page=1",
-            lead: "Joonhyun La (KIAS), ",
-            details: " · May 21."
-          },
-          {
             title: "Dynamics of polynomial vector fields on a sphere",
             url: "https://math.chungbuk.ac.kr/?mod=view&pg_idx=148&pidx=1830&page=1",
             lead: "Soumen Sarkar (Indian Institute of Technology Madras), ",
             details: " · September 18."
+          },
+          {
+            title: "Wave turbulence and some applications",
+            url: "https://math.chungbuk.ac.kr/?mod=view&pg_idx=148&pidx=1799&page=1",
+            lead: "Joonhyun La (KIAS), ",
+            details: " · May 21."
           }
         ],
         open: true
