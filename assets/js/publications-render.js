@@ -61,7 +61,7 @@
   }
 
   function appendAuthors(parent, work) {
-    if (!work.authors.length) return;
+    if (!work.authors.length) return null;
 
     const line = document.createElement("p");
     line.className = "pub-authors";
@@ -94,6 +94,15 @@
     });
 
     parent.append(line);
+    return line;
+  }
+
+  function appendArxiv(target, work) {
+    if (!work.arxiv) return;
+
+    const arxiv = externalLink(`https://arxiv.org/abs/${work.arxiv}`, "pub-arxiv");
+    arxiv.textContent = `arXiv:${work.arxiv}`;
+    target.append(document.createTextNode(" "), arxiv);
   }
 
   function createPublicationCard(work, number) {
@@ -119,10 +128,11 @@
     title.append(titleLink);
     content.append(title);
 
-    appendAuthors(content, work);
+    const authors = appendAuthors(content, work);
+    let venue = null;
 
     if (work.venue) {
-      const venue = document.createElement("p");
+      venue = document.createElement("p");
       venue.className = "pub-venue";
       const journal = document.createElement("em");
       journal.textContent = work.venue;
@@ -130,14 +140,7 @@
       content.append(venue);
     }
 
-    if (work.arxiv) {
-      const links = document.createElement("div");
-      links.className = "pub-links";
-      const arxiv = externalLink(`https://arxiv.org/abs/${work.arxiv}`);
-      arxiv.textContent = `arXiv:${work.arxiv}`;
-      links.append(arxiv);
-      content.append(links);
-    }
+    appendArxiv(venue || authors || title, work);
 
     article.append(content);
     return article;
