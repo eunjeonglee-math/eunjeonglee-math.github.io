@@ -1089,8 +1089,8 @@ select {
 }
 
 .photo-carousel-slide.is-portrait img {
-  object-fit: contain;
-  background: #edf3f8;
+  object-fit: cover;
+  object-position: center 40%;
 }
 
 .photo-carousel-arrow {
