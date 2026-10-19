@@ -3,11 +3,16 @@
 // Omit url when an activity has no webpage.
 // Use parts only when one line needs multiple links: strings are plain text, and { text, url } creates a link.
 window.ACTIVITY_DATA = {
-  lastUpdated: "September 21, 2026",
+  lastUpdated: "October 16, 2026",
   presentations: [
     {
       label: "2026",
       items: [
+        {
+          title: "Cluster algebra school",
+          url: "https://ccg.ibs.re.kr/event/cluster-algebra-school/",
+          details: " · IBS CCG, Daejeon, Korea · October 22–24."
+        },
         {
           title: "Pan-Pacific International Conference on Topology and Applications",
           url: "https://sites.google.com/view/ppicta2026/home",
