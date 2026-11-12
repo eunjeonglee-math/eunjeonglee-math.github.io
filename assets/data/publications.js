@@ -29,7 +29,7 @@ window.PUBLICATION_DATA = {
     "shintaro-kuroki": { name: "Shintarô Kuroki", homepage: "https://sites.google.com/ous.ac.jp/xmath-user-kuroki/%E3%83%9B%E3%83%BC%E3%83%A0" },
     "shizuo-kaji": { name: "Shizuo Kaji", homepage: "https://www.skaji.org/" },
     "megumi-harada": { name: "Megumi Harada", homepage: "https://math.mcmaster.ca/~haradam/" },
-    "jeongsoo-kim": { name: "Jeongsoo Kim", },
+    "jeongsoo-kim": { name: "Jeongsoo Kim" },
     "shin-hong": { name: "Shin Hong", homepage: "https://hongshin.github.io/" },
   },
 
