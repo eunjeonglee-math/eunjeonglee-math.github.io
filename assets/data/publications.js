@@ -36,7 +36,7 @@ window.PUBLICATION_DATA = {
   works: [
     {
       category: "submitted",
-      title: "Cluster-theoretic Newton--Okounkov polytopes of flag varieties of types <em>A</em><sub>4</sub> and <em>B</em><sub>2</sub>",
+      title: "Cluster-theoretic Newton–Okounkov polytopes of flag varieties of types <em>A</em><sub>4</sub> and <em>B</em><sub>2</sub>",
       url: "https://arxiv.org/abs/2611.13385",
       authors: ["jeongsoo-kim", "shin-hong"],
       arxiv: "2611.13385",
