@@ -29,9 +29,19 @@ window.PUBLICATION_DATA = {
     "shintaro-kuroki": { name: "Shintarô Kuroki", homepage: "https://sites.google.com/ous.ac.jp/xmath-user-kuroki/%E3%83%9B%E3%83%BC%E3%83%A0" },
     "shizuo-kaji": { name: "Shizuo Kaji", homepage: "https://www.skaji.org/" },
     "megumi-harada": { name: "Megumi Harada", homepage: "https://math.mcmaster.ca/~haradam/" },
+    "jeongsoo-kim": { name: "Jeongsoo Kim", },
+    "shin-hong": { name: "Shin Hong", homepage: "https://hongshin.github.io/" },
   },
 
   works: [
+    {
+      category: "submitted",
+      title: "Cluster-theoretic Newton--Okounkov polytopes of flag varieties of types <em>A</em><sub>4</sub> and <em>B</em><sub>2</sub>",
+      url: "https://arxiv.org/abs/2611.13385",
+      authors: ["jeongsooo-kim", "shin-hong"],
+      arxiv: "2611.13385",
+      status: "Submitted.",
+    },
     {
       category: "submitted",
       title: "Bott manifolds of Bott–Samelson type and assemblies of ordered partitions",
@@ -100,7 +110,7 @@ window.PUBLICATION_DATA = {
     {
       category: "published",
       year: 2025,
-      title: "On combinatorics of string polytopes in types B and C",
+      title: "On combinatorics of string polytopes in types <em>B</em> and <em>C</em>",
       url: "https://doi.org/10.1016/j.ejc.2025.104126",
       authors: ["yunhyung-cho", "naoki-fujita"],
       venue: "European Journal of Combinatorics",
@@ -120,7 +130,7 @@ window.PUBLICATION_DATA = {
     {
       category: "published",
       year: 2024,
-      title: "Newton–Okounkov polytopes of type A flag varieties of small ranks arising from cluster structures",
+      title: "Newton–Okounkov polytopes of type <em>A</em> flag varieties of small ranks arising from cluster structures",
       url: "https://link.springer.com/article/10.1134/S0081543824040175",
       authors: ["yunhyung-cho", "naoki-fujita", "akihiro-higashitani"],
       venue: "Proceedings of the Steklov Institute of Mathematics",
