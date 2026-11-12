@@ -111,7 +111,8 @@ window.PUBLICATION_DATA = {
     {
       category: "published",
       year: 2025,
-      title: "On combinatorics of string polytopes in types <em>B</em> and <em>C</em>",
+      title: "On combinatorics of string polytopes in types B and C",
+      titleHtml: "On combinatorics of string polytopes in types <em>B</em> and <em>C</em>",
       url: "https://doi.org/10.1016/j.ejc.2025.104126",
       authors: ["yunhyung-cho", "naoki-fujita"],
       venue: "European Journal of Combinatorics",
@@ -131,7 +132,8 @@ window.PUBLICATION_DATA = {
     {
       category: "published",
       year: 2024,
-      title: "Newton–Okounkov polytopes of type <em>A</em> flag varieties of small ranks arising from cluster structures",
+      title: "Newton–Okounkov polytopes of type A flag varieties of small ranks arising from cluster structures",
+      titleHtml: "Newton–Okounkov polytopes of type <em>A</em> flag varieties of small ranks arising from cluster structures",
       url: "https://link.springer.com/article/10.1134/S0081543824040175",
       authors: ["yunhyung-cho", "naoki-fujita", "akihiro-higashitani"],
       venue: "Proceedings of the Steklov Institute of Mathematics",
